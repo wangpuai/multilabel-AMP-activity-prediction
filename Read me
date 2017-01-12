@@ -1,0 +1,16 @@
+A new multi-label learning method based on similarity weighted KNN and multiple regression.
+
+It was tested by predicting the activities of Antimicrobial Peptides derived from the APD @ http://aps.unmc.edu/AP/main.php.
+
+csv file:
+AMPdata.csv - the original sequence and activity info of AMPs
+
+M file:
+main.m - the main file used to load data and test the multi-label algorithm
+MLSWKnnCV.m - cross-validation the algorithm
+MLSWKnnTrain.m - the training procedure
+MLSWKnnPred.m - the predicting procedure
+
+Mat file:
+AMPdata.mat - the feature vectors and target labels of the original dataset
+AMPdata_filtered.mat - the feature vectors and target labels of the filtered dataset
